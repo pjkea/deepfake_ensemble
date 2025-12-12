@@ -1,0 +1,35 @@
+# Core ML frameworks
+torch==2.2.2
+torchvision==0.17.2
+tensorflow==2.16.2
+keras==3.12.0
+
+# Transformers (for ViT)
+transformers==4.57.3
+tokenizers==0.22.1
+safetensors==0.7.0
+huggingface-hub==0.36.0
+
+# Vision models
+timm==0.4.5
+efficientnet_pytorch==0.7.1
+
+# Image processing
+pillow==12.0.0
+opencv-python==4.8.1.78
+numpy==1.24.4
+
+# FastAPI (for deployment)
+fastapi==0.123.0
+uvicorn==0.38.0
+python-multipart==0.0.20
+starlette==0.50.0
+
+# Database (if using sanctions screening)
+asyncpg==0.29.0
+
+# Utils
+pydantic==2.12.4
+python-dotenv==1.2.1
+tqdm==4.67.2
+requests==2.32.5
