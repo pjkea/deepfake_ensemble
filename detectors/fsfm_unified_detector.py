@@ -20,7 +20,7 @@ import os
 import json
 
 # Import the custom ViT architecture
-import models_vit
+from . import models_vit
 
 
 class FSFM_UnifiedDetector:

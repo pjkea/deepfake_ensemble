@@ -17,9 +17,9 @@ import os
 import sys
 
 # Import individual detectors
-from fsfm_unified_detector import FSFM_UnifiedDetector
-from cemroot_detector import CemRootDetector
-from vit_detector import DeepFakeDetectorV2
+from .fsfm_unified_detector import FSFM_UnifiedDetector
+from .cemroot_detector import CemRootDetector
+from .vit_detector import DeepFakeDetectorV2
 
 
 class EnsembleDeepfakeDetector:
