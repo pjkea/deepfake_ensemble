@@ -304,13 +304,13 @@ if __name__ == "__main__":
     print(f"  • FSFM Checkpoint: {FSFM_CHECKPOINT}")
     print(f"  • CemRoot Model: {CEMROOT_MODEL}")
     print(f"  • ViT Cache: {VIT_CACHE}")
-    print("\n🌐 Server will start at: http://localhost:8000")
-    print("📚 API docs at: http://localhost:8000/docs")
+    print("\n🌐 Server will start at: http://localhost:9000")
+    print("📚 API docs at: http://localhost:9000/docs")
     print("="*70 + "\n")
     
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8000,
+        port=9000,
         log_level="info"
     )
